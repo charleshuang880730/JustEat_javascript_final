@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: 100%;
+/*    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*/}
+
+a {
+    color: #00B7FF;
+}
+
+#container{
+    width: 1200px;
+    height: 670px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -335px 0 0 -600px;
+    z-index: 0;
+}
+
+#phoneSide {
+
+    height: 670px;
+    width: 350px;
+
+    background-color: #FF9838;
+}
+
+#pickingSide {
+
+}
+
+#go_button {
+    background-image: url(../assets/button_go.png);
+    background-size: cover;
+    width: 90px;
+    height: 72px;
+    background-color: #FF9838;
+    border: 0px;
+    z-index: 0;
+}
+#check_button {
+    background-image: url(../assets/button_check.png);
+    background-size: cover;
+    width: 90px;
+    height: 72px;
+    background-color: #FF9838;
+    border: 0px;
+    z-index: 0;
+}
+
+#button{
+    background-color: #FF9838;
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    /*
+    top: 45px;
+    left: 25px;
+    */
+    bottom: 5%;
+}
+
+#header{
+    background-color: #FFD4D4;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.resultImg {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.redirect{
+    position: absolute;
+    z-index: 99;
+    width: 15%;
+    margin-top: 35%;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.next{
+    margin-left: 30%;
+}
+
+
+#guide_button {
+    background-image: url(../assets/Guide/level1.png);
+    background-size: cover;
+    border: 0px;
+    width: 1200px;
+    height: 670px;
+    z-index: 1;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -335px 0 0 -600px;
+}
+
+#guide_button_two {
+    background-image: url(../assets/Guide/level1-2.png);
+    background-size: cover;
+    border: 0px;
+    width: 1200px;
+    height: 670px;
+    z-index: 1;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -335px 0 0 -600px;
+}
+
+.restart {
+    margin-left: 30%;
+}
+
+.back {
+    margin-left: 55%;
+}

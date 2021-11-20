@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="#">
+    <title>JuSteat-Level1</title>
+    <script src="javascripts/p5.min.js"></script>
+    <script src="javascripts/shape5.js"></script>
+    <script src="javascripts/p5.play.js"></script>
+
+    <script src="./javascripts/Level1.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/Level1.css">
+    <link href="./stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div id="container">
+
+    <button type="button" id="guide_button" onclick="start()"></button>
+
+    <div id="phoneSide" style="text-align: center">
+        <img src="./assets/iphone.png" width="250" style="position: relative;top: 30px">
+        <div id="button">
+            <button type="button" id="check_button" onclick="check()"></button>
+            <button type="button" id="go_button" onclick="showResult()"></button>
+        </div>
+    </div>
+
+    <div id="pickingSide">
+
+    </div>
+<!--
+    <div id="button page">
+        <img src="./assets/回到主畫面.png" onclick="location.href='index.html';" width="150px">
+        <img src="./assets/Restart.png" onclick="location.reload();" width="150px">
+    </div>
+-->
+</div>
+
+
+</body>
+</html>

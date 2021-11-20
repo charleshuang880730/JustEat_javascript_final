@@ -1,0 +1,143 @@
+//做文字動畫
+$backgroundColor:#000;
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Righteous', 'Noto Sans TC',cursive;
+}
+
+.button{
+  cursor: pointer;
+}
+
+.resultImg{
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.resultTxt{
+  position: absolute;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  font-size: 80px;
+  color: white;
+  left: 50%;
+  top: 25%;
+  margin-left: -333px;
+}
+
+.redirect{
+  position: absolute;
+  z-index: 99;
+  width: 15%;
+  margin-top: 35%;
+}
+
+
+.next{
+  margin-left: 30%;
+}
+
+.restart {
+  margin-left: 30%;
+}
+
+.back {
+  margin-left: 55%;
+}
+
+#containerLevel3{
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -450px 0 0 -450px;
+  z-index: 0;
+}
+
+button.level3 {
+    background-image: url(../assets/Guide/level3.png);
+    background-size: cover;
+    border: 0px;
+    width: 900px;
+    height: 900px;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  margin: -450px 0 0 -450px;
+
+}
+
+button.level2 {
+  background-image: url(../assets/Guide/level2.png);
+  background-size: cover;
+  border: 0px;
+  width: 1200px;
+  height: 670px;
+  z-index: 1;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -335px 0 0 -600px;
+}
+
+  //Level1,2
+  #container{
+    width: 1200px;
+    height: 670px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -335px 0 0 -600px;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+
+    .text-wrapper {
+      position: absolute;
+      width: 600px;
+      height: 200px;
+      left: 50%;
+      top: 30%;
+      margin-top: -100px;
+      margin-left: -300px;
+
+      .title {
+        position: absolute;
+        width: 600px;
+        height: 200px;
+        margin-top: 0;
+        margin-left: -120px;
+        font-size: 150px;
+        color: #FDD015;
+        text-align: center;
+        .JS {
+          color: #00B0E8;
+        }
+        .eat{
+          position: absolute; //這樣動畫才會動
+        }
+      }
+    }
+    .hint-text{
+      position: absolute;
+      width: 300px;
+      height: 80px;
+      top: 50%;
+      left: 50%;
+      margin-left: -150px;
+      text-align: center;
+      font-size: 30px;
+
+      .flash{
+        margin-top: 20px;
+      }
+    }
+  }
